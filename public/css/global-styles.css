@@ -11,14 +11,24 @@ header img {
 main {
   padding: 0% 12px 0% 12px;
 }
+.header-banner {
+  width: 100%;
+  padding: 0%;
+}
+
 .text-color-gray {
   color: gray;
 }
 .primary-button {
+  border: none;
   background-color: black;
   color: white;
-  border: none;
-  padding: 0.6rem;
+  cursor: pointer;
   font-weight: 500;
   font-family: "Times New Roman", Times, serif;
+  padding: 0.6rem;
+
+  &:hover {
+    opacity: 0.6;
+  }
 }

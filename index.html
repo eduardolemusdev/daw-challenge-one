@@ -16,11 +16,17 @@
     <header>
       <div>
         <div>
-          <img
-            src="/public/udbtimes-lg.png"
-            alt="site-banner"
-            class="header-banner"
-          />
+          <picture>
+            <source
+              srcset="/public/index-banner.png"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="/public/udbtimes-md.png"
+              alt="site-banner"
+              class="header-banner"
+            />
+          </picture>
         </div>
         <div>
           <span class="newsPapperDate principal-date title-Times"></span>
