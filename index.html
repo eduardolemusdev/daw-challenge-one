@@ -3,30 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/global-styles.css" />
+    <link rel="stylesheet" href="/public/css/index-style.css" />
+    <script
+      src="https://kit.fontawesome.com/e040d45133.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/public/js/utils.js" defer></script>
     <title>The UDB Times</title>
   </head>
   <body>
     <header>
       <div>
         <div>
-          <picture>
-            <source
-              media="(min-width: 640px)"
-              srcset="/public/udbtimes-sm.png"
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="/public/udbtimes-md.png"
-            />
-            <source
-              media="(max-width: 1024px)"
-              srcset="/public/udbtimes-lg.png"
-            />
-            <img src="/public/udbtimes-lg.png" alt="site-banner" srcset="" />
-          </picture>
+          <img
+            src="/public/udbtimes-lg.png"
+            alt="site-banner"
+            class="header-banner"
+          />
         </div>
-        <div><span>09/08/2024</span></div>
+        <div>
+          <span class="newsPapperDate principal-date title-Times"></span>
+        </div>
       </div>
     </header>
+    <main class="articles-container">
+      <div class="news-article">
+        <img
+          src="https://fortune.com/img-assets/wp-content/uploads/2024/08/GettyImages-72955624.jpg?w=1440&q=75"
+          alt="iphone-new"
+        />
+
+        <div class="news-article__content">
+          <h1>News Titles insert text</h1>
+          <div class="article-credits">
+            <p>
+              <span class="text-color-gray">by</span>
+              <span class="article-creator">Rodrigo Lemus</span>
+            </p>
+            <div class="article-credits_date text-color-gray">
+              <i class="fa-solid fa-clock"></i
+              ><span class="newsPapperDate"></span>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+            est consectetur voluptatum doloribus sapiente iure accusamus
+            pariatur corrupti ut, laudantium deleniti ullam, voluptas
+            voluptatibus facere aperiam labore ducimus minima vero.
+          </p>
+          <button type="button" class="primary-button">LEER MÁS</button>
+        </div>
+      </div>
+      <div class="news-article">
+        <img
+          src="https://fortune.com/img-assets/wp-content/uploads/2024/08/GettyImages-72955624.jpg?w=1440&q=75"
+          alt="iphone-new"
+        />
+
+        <div class="news-article__content">
+          <h1>News Titles insert text</h1>
+          <div class="article-credits">
+            <p>
+              <span class="text-color-gray">by</span>
+              <span class="article-creator">Rodrigo Lemus</span>
+            </p>
+            <div class="article-credits_date text-color-gray">
+              <i class="fa-solid fa-clock"></i
+              ><span class="newsPapperDate"></span>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+            est consectetur voluptatum doloribus sapiente iure accusamus
+            pariatur corrupti ut, laudantium deleniti ullam, voluptas
+            voluptatibus facere aperiam labore ducimus minima vero.
+          </p>
+          <button type="button" class="primary-button">LEER MÁS</button>
+        </div>
+      </div>
+      <div class="news-article">
+        <img
+          src="https://fortune.com/img-assets/wp-content/uploads/2024/08/GettyImages-72955624.jpg?w=1440&q=75"
+          alt="iphone-new"
+        />
+
+        <div class="news-article__content">
+          <h1>News Titles insert text</h1>
+          <div class="article-credits">
+            <p>
+              <span class="text-color-gray">by</span>
+              <span class="article-creator">Rodrigo Lemus</span>
+            </p>
+            <div class="article-credits_date text-color-gray">
+              <i class="fa-solid fa-clock"></i
+              ><span class="newsPapperDate"></span>
+            </div>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora
+            est consectetur voluptatum doloribus sapiente iure accusamus
+            pariatur corrupti ut, laudantium deleniti ullam, voluptas
+            voluptatibus facere aperiam labore ducimus minima vero.
+          </p>
+          <button type="button" class="primary-button">LEER MÁS</button>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
