@@ -49,6 +49,7 @@ h1,
   cursor: pointer;
   transition: all ease-in 0.5ms;
 }
+
 @media only screen and (min-width: 768px) {
   .news-article {
     display: flex;
@@ -56,7 +57,7 @@ h1,
     gap: 10px 10px;
     width: 100%;
     & img {
-      width: 50%;
+      width: 100%;
       border-radius: 12px;
     }
     & p {
@@ -88,32 +89,4 @@ h1,
   }
 }
 
-.article-credits {
-  display: flex;
-  gap: 12px;
-  font-size: 0.7rem;
 
-  & p {
-    margin: 0%;
-    padding: 0%;
-  }
-}
-.article-creator {
-  font-weight: 700;
-}
-.article-credits_date span {
-  padding-left: 4px;
-  text-transform: uppercase;
-}
-.news-article__content p {
-  margin-bottom: 10px;
-}
-.news-article_typeTag {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: red;
-  font-weight: 700;
-  text-decoration: none;
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 8px;
-}
