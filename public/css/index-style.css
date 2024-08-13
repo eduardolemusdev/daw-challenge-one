@@ -3,9 +3,6 @@ h1,
   font-family: "Times New Roman", Times, serif;
   font-weight: 700;
 }
-.principal-date {
-  padding-left: 26px;
-}
 
 .articles-container {
   display: flex;
@@ -88,5 +85,3 @@ h1,
     }
   }
 }
-
-
