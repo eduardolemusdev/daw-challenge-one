@@ -108,3 +108,12 @@ h1,
 .news-article__content p {
   margin-bottom: 10px;
 }
+.news-article_typeTag {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
