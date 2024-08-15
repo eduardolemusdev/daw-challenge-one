@@ -91,9 +91,9 @@ h1,
 
 .footer-container {
   background-color: black;
+  display: flex;
   height: 200px;
   margin-top: 50px;
-  display: flex;
   flex-direction: column;
   justify-content: end;
 
