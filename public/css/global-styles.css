@@ -6,7 +6,6 @@ html {
 }
 header img {
   padding-bottom: 8px;
-  border-bottom: 1px solid rgb(102, 102, 102);
 }
 main {
   padding: 0% 12px 0% 12px;
@@ -20,8 +19,9 @@ h1,
   width: 100%;
   padding: 0%;
 }
+
 .principal-date {
-  padding-left: 26px;
+  color: white;
 }
 .text-color-gray {
   color: gray;
@@ -131,4 +131,45 @@ h1,
   font-family: "Times New Roman", Times, serif;
   font-weight: 800;
   padding-left: 3%;
+}
+.news-menu {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  & ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    & li a {
+      color: rgb(199, 199, 199);
+    }
+
+    & li a {
+      color: rgb(255, 255, 255);
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .news-menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    & ul {
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+      list-style: none;
+      & li a {
+        color: rgb(199, 199, 199);
+      }
+  
+      & li a:hover {
+        color: rgb(255, 255, 255);
+        transition: all 0.2s ease-in;
+      }
+    }
+  }
 }
