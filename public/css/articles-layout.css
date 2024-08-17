@@ -89,6 +89,7 @@ h3 {
 .news-article {
   & img {
     width: 100%;
+    border-radius: 8px;
   }
 }
 .news-article__content h3:hover {
