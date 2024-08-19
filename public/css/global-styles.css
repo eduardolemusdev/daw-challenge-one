@@ -10,8 +10,7 @@ header img {
 main {
   padding: 0% 12px 0% 12px;
 }
-h1,
-.title-Times {
+h1 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 700;
 }
